@@ -1,0 +1,39 @@
+@keyframes test {
+	0%   { background-position-x: 0;    background-position-y: 0;    background-color: hsl(0  , 50%, 10%);}
+	25%                                                            { background-color: hsl(90 , 50%, 10%);}
+	50%                                                            { background-color: hsl(180, 50%, 10%);}
+	75%                                                            { background-color: hsl(270, 50%, 10%);}
+	100% { background-position-x: 200%; background-position-y: 100%; background-color: hsl(360, 50%, 10%);}
+}
+
+body {
+	background-color: #1F1F1F;
+	background-image: url("luigi_groovin.gif");
+	background-size: 10%;
+	animation-name: test;
+	animation-duration: 10s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+}
+
+img {
+	/*! width: 100%; */
+
+	/*! height: auto; */
+	display: block;
+
+	margin-top: auto;
+	max-width: 20000px;
+	max-height: 200000px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:10%;
+}
+
+div {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
